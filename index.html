@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        <div class="container">
+            <h1>Welcome to Movie App</h1>
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Search..."
+                />
+              </div>
+      
+              <button type="submit" class="btn" id="search">
+                Search a movie
+              </button>
+            </form>
+            <div id="movies" class="row"></div>
+      
+            <div id="movies-searchable"></div>
+            <div id="movies-container"></div>
+          </div>
+      
+          <script src="apiTransaction.js"></script>
+        
+        
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="app.js" async defer></script>
+    </body>
+</html>
